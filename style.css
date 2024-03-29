@@ -137,7 +137,7 @@ main {
       font-size: 2rem;
       line-height: 1.5;
       margin-bottom: var(--spacing);
-      font-family: FoundryGridnik, sans-serif;
+      font-family: FoundryGridnik;
     }
     section h2{
       animation: fadeIn 1s;
