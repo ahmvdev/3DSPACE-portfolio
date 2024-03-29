@@ -1,0 +1,170 @@
+body { 
+  margin: 0;
+  zoom:100%; 
+} 
+/*code looks really fucking bad*/
+/*but its okay noone will see this*/
+.navbar{
+  width: 100%;
+  border-bottom: 1px solid white;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  display: flex;
+  text-transform: uppercase;
+  font-family: FoundryGridnik, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-size: 17px;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  transition: transform 0.3s ease-in-out 0s;
+  transform: translate3d(0px, 0px, 0px);
+  height: 52px;
+}
+.navbaritems li1 a{
+  position:relative;
+  top:0px;
+  left:700px;
+  text-transform: lowercase;
+  font-family: Pixelar, sans-serif;
+  font-size:25px;
+  letter-spacing: 1.5px;
+  color:white;
+  padding-left:5px;
+}
+
+.navbaritems li2 a{
+  position:relative;
+  top:0px;
+  left:785px;
+  color:white;
+  font-size:25px;
+  font-family: Pixelar;
+  padding-left:5px;
+  
+}
+
+.navbaritems li3 a{
+  position:relative;
+  top:0px;
+  left:850px;
+  color:white;
+  font-family:Pixelar;
+  font-size:25px;
+  padding-left:5px;
+}
+.navbaritems li4 p{
+  position:relative;
+  top:-45px;
+  left:-20px;
+  font-family: Pixelar;
+  color:#00ffc2;
+  letter-spacing:3.2px;
+  line-height:16px;
+  font-size:25px;
+}
+
+@font-face {
+  font-family: Pixelar;
+  src: url(PixelarRegular.ttf);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px)scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0)scale(1);
+  }
+}
+
+
+
+main {
+    font-size:16px;
+    width: 100vw;
+    color: white;
+    z-index: 99;
+    position :absolute;
+    width: 100%;
+    margin: 0px auto;
+    padding: 120px 0px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+
+  h1,  blockquote {
+    font-weight: 400;
+    font-style: normal;
+    animation: fadeIn 0.7s;
+    font-family: Pixelar,sans-serif;
+  }
+  
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin:0;
+  }
+  
+    .down-header {
+      background: var(--dark-bg);
+      grid-column: 2 / span 5;
+      font-size: 3.3rem;
+      padding: 2rem;
+      margin-bottom: var(--spacing);
+      animation: fadeIn 1s;
+    }
+    .down-header p{
+      animation: fadeIn 1s;
+      font-family:Pixelar;
+    }
+  
+    section {
+      grid-column: 2 / 8;
+      padding: 1rem;
+      background: var(--dark-bg);
+      font-size: 2.3rem;
+      line-height: 1.5;
+      margin-bottom: var(--spacing);
+      font-family:Pixelar;
+    }
+    section h2{
+      animation: fadeIn 1s;
+      font-family:Pixelar, sans-serif;
+    }
+  
+    blockquote {
+      margin: 0;
+      padding: 0 2em;
+      grid-column: 2 / span 9;
+      margin-bottom: var(--spacing);
+    }
+  
+    blockquote p {
+      color: black;
+      background-color: white;
+      font-size: 4rem;
+      display: inline;
+      line-height: 1;
+    }
+  
+    .left {
+      grid-column: 6 / 12;
+    }
+
+    #preloader{
+      background: black url(loading.gif) no-repeat center center;
+      background-size:80%;
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+      margin-top: 0px;
+      top: 0px;
+    }
