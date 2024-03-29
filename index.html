@@ -9,7 +9,7 @@
 
 <body>
 <canvas id="bg"></canvas>   
-
+<div id="preloader"></div>
 <main>
   <div class='navbar'>
     <div class="navbaritems">
@@ -108,6 +108,13 @@
 
 <script type="module" src="/main.js"></script>
 
+<script>
+  var loader = document.getElementById("preloader");
+  window.addEventListener("load", function(){
+    loader.style.display = "none";
+    
+  })
+</script>
 
 </body>
 </html>
