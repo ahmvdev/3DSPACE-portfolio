@@ -71,6 +71,11 @@ body {
   font-family: Pixelar;
   src: url(PixelarRegular.ttf);
 }
+@font-face {
+  font-family: FoundryGridnik;
+  src: url(Gridnik\ Regular.ttf);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -129,10 +134,10 @@ main {
       grid-column: 2 / 8;
       padding: 1rem;
       background: var(--dark-bg);
-      font-size: 2.3rem;
+      font-size: 2rem;
       line-height: 1.5;
       margin-bottom: var(--spacing);
-      font-family:Pixelar;
+      font-family: FoundryGridnik, sans-serif;
     }
     section h2{
       animation: fadeIn 1s;
