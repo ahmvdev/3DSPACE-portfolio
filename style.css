@@ -157,14 +157,3 @@ main {
     .left {
       grid-column: 6 / 12;
     }
-
-    #preloader{
-      background: black url(loading.gif) no-repeat center center;
-      background-size:80%;
-      height: 100%;
-      width: 100%;
-      position: fixed;
-      z-index: 100;
-      margin-top: 0px;
-      top: 0px;
-    }
