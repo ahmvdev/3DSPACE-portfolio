@@ -2,7 +2,7 @@
 
 This website uses Three.js to showcase your skills that will blow away the hiring manager's mind! <br> GUARANTEED to get you a job! (I am jobless)<br>
 Just clone the repo <br>
-Make changes to the index.html and enjoy 100k a year for life!<br>
+Make changes to the index.html and get your dream job!<br>
 
 ⚡**Build with**<br>
 
