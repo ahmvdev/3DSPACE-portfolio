@@ -1,6 +1,8 @@
 ⚡**3D THEMED PORTFOLIO**<br>
 
-This website uses Three.js to showcase your skills that will blow away the hiring manager's mind! <br> GUARANTEED to get you a job! (I am jobless)
+This website uses Three.js to showcase your skills that will blow away the hiring manager's mind! <br> GUARANTEED to get you a job! (I am jobless)<br>
+Just clone the repo <br>
+Make changes to the index.html and enjoy 100k a year for life!<br>
 
 ⚡**Build with**<br>
 
