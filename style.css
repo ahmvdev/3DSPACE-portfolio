@@ -73,7 +73,7 @@ body {
 }
 @font-face {
   font-family: FoundryGridnik;
-  src: url(Gridnik\ Regular.ttf);
+  src: url(Gridnik.ttf);
 }
 
 @keyframes fadeIn {
