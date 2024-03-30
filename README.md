@@ -10,7 +10,7 @@ Make changes to the index.html and get your dream job!<br>
 • Three.js<br>
 
 ⚡**VIDEO DEMO**<br>
-![60fps](https://github.com/ahmvdev/3dspace-portfolio/assets/53330530/6a7a7e76-0263-4ab8-bcb5-bf4a02abf855)
+        ![60fps](https://github.com/ahmvdev/3dspace-portfolio/assets/53330530/6a7a7e76-0263-4ab8-bcb5-bf4a02abf855)
 
 ⚡**LIVE DEMO**<br>
 
